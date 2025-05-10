@@ -31,22 +31,26 @@ To write a Python program that sorts a dictionary's:
 
 ## 🧪Program
 ```
-data = {'banana': 'yellow', 'cherry': 'red', 'apple': 'green', 'blueberry': 'blue'}
-
-sorted_by_keys = dict(sorted(data.items()))
-sorted_by_values = dict(sorted(data.items(), key=lambda item: item[1]))
-
-print("Original dictionary:", data)
-print("Dictionary sorted by keys:", sorted_by_keys)
-print("Dictionary sorted by values:", sorted_by_values)
+def dictionairy():  
+ key_value ={}   
+ key_value[2] = 56      
+ key_value[1] = 2
+ key_value[5] = 12
+ key_value[4] = 24
+ key_value[6] = 18     
+ key_value[3] = 323
+ s=sorted(key_value.items(),key=lambda x:x[1])
+ print ("Keys and Values sorted in alphabetical order by the value")
+ print(s)
+ 
+def main():
+    
+    dictionairy()           
 ```
 
 ## Sample Output
-```
-Original dictionary: {'banana': 'yellow', 'cherry': 'red', 'apple': 'green', 'blueberry': 'blue'}
-Dictionary sorted by keys: {'apple': 'green', 'banana': 'yellow', 'blueberry': 'blue', 'cherry': 'red'}
-Dictionary sorted by values: {'blueberry': 'blue', 'apple': 'green', 'cherry': 'red', 'banana': 'yellow'}
-```
+![image](https://github.com/user-attachments/assets/f19f2bd9-a6f6-4aa4-a418-0d570459faa2)
+
 
 ## Result
 
