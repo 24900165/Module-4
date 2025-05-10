@@ -13,20 +13,19 @@ To write a Python program that calculates the **area of a circle** based on the 
 ## 🧾 Program
 ```
 class cse:
-    def mech(self, r):
-        area = 3.1416 * r * r
-        print("Area of the circle is:", area)
-
-radius = float(input("Enter the radius of the circle: "))
-obj = cse()
-obj.mech(radius)
+    def __init__(self,area):
+        area=3.1416*r*r
+        self.area=area
+    def mech(self):
+        print("Area of circle:",round(self.area,2))
+r=eval(input())
+boo=cse(r)
+boo.mech()
 ```
 
 ## Output
-```
-Enter the radius of the circle: 5
-Area of the circle is: 78.54
-```
+![image](https://github.com/user-attachments/assets/9bb0552d-e88e-41cf-a5aa-954849e1ce78)
+
 
 ## Result
 
